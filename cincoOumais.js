@@ -1,35 +1,34 @@
-const valores = [100, 500, 100, 200]
-let soma = 0
-let maior = valores[0];
+// const valores = [200, 200, 200, 200, 100, 200]
+// let soma = 0
+// let menor = valores[0];
 
-if (valores.length < 5) {
-    for (let num of valores) {
+// if (valores.length < 5) {
+//     for (let num of valores) {
 
-        soma = soma + num;
-    }
-}
-else {
+//         soma = soma + num;
+//     }
+//     console.log(soma)
+// }
+// else {
 
-    for (let numero of valores) {
-        if (numero > maior) {
-            maior = numero;
-        }
-    }
-}
+//     for (let numero of valores) {
+//         if (numero < menor) {
+//             menor = numero;
+//         }
+//     }
+//     for (let num of valores) {
 
-console.log(soma);
-
-// if(valores.length<5){
-//     for (let x of valores){
-//         soma+=x
-//     }else{
-
+//         soma = soma + num;
 //     }
 
+//     console.log(soma - menor)
+
+
+
+
 // }
-// console.log(soma);
 
-// for (let numero of valores) { }
 
-// console.log(maior)
+
+
 
